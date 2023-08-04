@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.parent {
+  background-color: #FBD85D;
+  width: 100%;
+  height: 300px;
+}
+
+.child {
+  display: inline-block; /* display: inline-block;   - display block element as inline eklements */
+  /* display: none;  - hides the div */
+  /* display: block;  - display the elements as block element */
+  background-color: #FE0000;
+  width: 100px;
+  height: 100px;
+  margin: 2px;
+
+}

@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.parent {
+  position: relative;
+  background-color: #FBD85D;
+  width: 300px;
+  height: 300px;
+}
+
+.child {
+  position: absolute;
+  background-color: #FE0000;
+  width: 100px;
+  height: 100px;
+  margin: 2px;
+  top: 0;
+  right: 0;
+
+}
+
+.son{
+  position: absolute;
+  background-color: #FBD85D;
+  width: 30px;
+  height: 30px;
+  margin: 2px;
+  bottom: 0;
+  right: 0;
+
+}

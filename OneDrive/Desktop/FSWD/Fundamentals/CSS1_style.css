@@ -1,0 +1,28 @@
+.my-style {
+  background-color: #C4D7B2;     /*background-color is for background color*/
+  color: #17594A;               /*color is for text color*/
+  border: 3px solid #000;       /*3px is width , solid is type like dotted , dashed  and #is color code*/
+}
+ /* the class selectors uses dot(.) to define it */
+ /* the id selectoe uses # to define it */
+ /* one or more than one div or elements can hav same class but
+ only one id selector can be use for only one element or only one div */
+
+/* It is always prefered to not to use id selectors */
+ #my-id {
+   background-color: #A1C2F1;
+   color: #0E2954
+ }
+
+/* element selectors doesn't need to define wit special character lik dor or asterikor #
+defined only using the element name and rest syntax is same */
+ p {
+   background-color: #FBD85D;
+   color: #1A5D1A
+ }
+
+/* We can override elements style with element selectors to debug
+but always try to avoid overriding and id's */
+ h1 {
+   color: #000
+ }
